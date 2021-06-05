@@ -12,10 +12,12 @@ Object.defineProperty(exports, "createAnimatedFiber", {
 Object.defineProperty(exports, "a", {
   enumerable: true,
   get: function get() {
-    return _animated.animated;
+    return _animated.default;
   }
 });
 
 var _helpers = require("./helpers");
 
-var _animated = require("./animated");
+var _animated = _interopRequireDefault(require("./animated"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

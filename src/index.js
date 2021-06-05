@@ -1,2 +1,2 @@
 export { createAnimatedFiber } from "./helpers";
-export { animated as a } from "./animated";
+export { default as a } from "./animated";
