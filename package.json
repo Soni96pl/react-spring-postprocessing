@@ -1,0 +1,41 @@
+{
+  "name": "react-spring-postprocessing",
+  "version": "1.0.0",
+  "description": "Animated component for react-spring for use with Three.js ShaderPass and custom shader materials",
+  "main": "index.js",
+  "module": "./src/index.js",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./cjs/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --delete-dir-on-start -d cjs/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soni96pl/react-spring-postprocessing.git"
+  },
+  "keywords": [
+    "react-spring",
+    "react-spring-fiber",
+    "react-three-fiber",
+    "three"
+  ],
+  "author": "Sonia Chronowska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soni96pl/react-spring-postprocessing/issues"
+  },
+  "homepage": "https://github.com/Soni96pl/react-spring-postprocessing#readme",
+  "peerDependencies": {
+    "@react-spring/animated": "9.x",
+    "@react-three/fiber": "6.x",
+    "three": ">=0.129.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4"
+  }
+}
